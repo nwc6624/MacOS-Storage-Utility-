@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		93BEFA782D62D91200E2CDD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BEFA5E2D62D91100E2CDD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93BEFA652D62D91100E2CDD9;
+			remoteInfo = "Storage Monitor";
+		};
+		93BEFA822D62D91200E2CDD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BEFA5E2D62D91100E2CDD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93BEFA652D62D91100E2CDD9;
+			remoteInfo = "Storage Monitor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93BEFA662D62D91100E2CDD9 /* Storage Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storage Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BEFA772D62D91200E2CDD9 /* Storage MonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storage MonitorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BEFA812D62D91200E2CDD9 /* Storage MonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storage MonitorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		93BEFA682D62D91100E2CDD9 /* Storage Monitor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Storage Monitor";
+			sourceTree = "<group>";
+		};
+		93BEFA7A2D62D91200E2CDD9 /* Storage MonitorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Storage MonitorTests";
+			sourceTree = "<group>";
+		};
+		93BEFA842D62D91200E2CDD9 /* Storage MonitorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Storage MonitorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93BEFA632D62D91100E2CDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BEFA742D62D91200E2CDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BEFA7E2D62D91200E2CDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93BEFA5D2D62D91100E2CDD9 = {
+			isa = PBXGroup;
+			children = (
+				93BEFA682D62D91100E2CDD9 /* Storage Monitor */,
+				93BEFA7A2D62D91200E2CDD9 /* Storage MonitorTests */,
+				93BEFA842D62D91200E2CDD9 /* Storage MonitorUITests */,
+				93BEFA672D62D91100E2CDD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93BEFA672D62D91100E2CDD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93BEFA662D62D91100E2CDD9 /* Storage Monitor.app */,
+				93BEFA772D62D91200E2CDD9 /* Storage MonitorTests.xctest */,
+				93BEFA812D62D91200E2CDD9 /* Storage MonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93BEFA652D62D91100E2CDD9 /* Storage Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BEFA8B2D62D91200E2CDD9 /* Build configuration list for PBXNativeTarget "Storage Monitor" */;
+			buildPhases = (
+				93BEFA622D62D91100E2CDD9 /* Sources */,
+				93BEFA632D62D91100E2CDD9 /* Frameworks */,
+				93BEFA642D62D91100E2CDD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				93BEFA682D62D91100E2CDD9 /* Storage Monitor */,
+			);
+			name = "Storage Monitor";
+			packageProductDependencies = (
+			);
+			productName = "Storage Monitor";
+			productReference = 93BEFA662D62D91100E2CDD9 /* Storage Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93BEFA762D62D91200E2CDD9 /* Storage MonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BEFA8E2D62D91200E2CDD9 /* Build configuration list for PBXNativeTarget "Storage MonitorTests" */;
+			buildPhases = (
+				93BEFA732D62D91200E2CDD9 /* Sources */,
+				93BEFA742D62D91200E2CDD9 /* Frameworks */,
+				93BEFA752D62D91200E2CDD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93BEFA792D62D91200E2CDD9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93BEFA7A2D62D91200E2CDD9 /* Storage MonitorTests */,
+			);
+			name = "Storage MonitorTests";
+			packageProductDependencies = (
+			);
+			productName = "Storage MonitorTests";
+			productReference = 93BEFA772D62D91200E2CDD9 /* Storage MonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93BEFA802D62D91200E2CDD9 /* Storage MonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BEFA912D62D91200E2CDD9 /* Build configuration list for PBXNativeTarget "Storage MonitorUITests" */;
+			buildPhases = (
+				93BEFA7D2D62D91200E2CDD9 /* Sources */,
+				93BEFA7E2D62D91200E2CDD9 /* Frameworks */,
+				93BEFA7F2D62D91200E2CDD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93BEFA832D62D91200E2CDD9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93BEFA842D62D91200E2CDD9 /* Storage MonitorUITests */,
+			);
+			name = "Storage MonitorUITests";
+			packageProductDependencies = (
+			);
+			productName = "Storage MonitorUITests";
+			productReference = 93BEFA812D62D91200E2CDD9 /* Storage MonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93BEFA5E2D62D91100E2CDD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					93BEFA652D62D91100E2CDD9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					93BEFA762D62D91200E2CDD9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 93BEFA652D62D91100E2CDD9;
+					};
+					93BEFA802D62D91200E2CDD9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 93BEFA652D62D91100E2CDD9;
+					};
+				};
+			};
+			buildConfigurationList = 93BEFA612D62D91100E2CDD9 /* Build configuration list for PBXProject "Storage Monitor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93BEFA5D2D62D91100E2CDD9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 93BEFA672D62D91100E2CDD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93BEFA652D62D91100E2CDD9 /* Storage Monitor */,
+				93BEFA762D62D91200E2CDD9 /* Storage MonitorTests */,
+				93BEFA802D62D91200E2CDD9 /* Storage MonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93BEFA642D62D91100E2CDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BEFA752D62D91200E2CDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BEFA7F2D62D91200E2CDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93BEFA622D62D91100E2CDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BEFA732D62D91200E2CDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BEFA7D2D62D91200E2CDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93BEFA792D62D91200E2CDD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93BEFA652D62D91100E2CDD9 /* Storage Monitor */;
+			targetProxy = 93BEFA782D62D91200E2CDD9 /* PBXContainerItemProxy */;
+		};
+		93BEFA832D62D91200E2CDD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93BEFA652D62D91100E2CDD9 /* Storage Monitor */;
+			targetProxy = 93BEFA822D62D91200E2CDD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93BEFA892D62D91200E2CDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93BEFA8A2D62D91200E2CDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		93BEFA8C2D62D91200E2CDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Storage Monitor/Storage_Monitor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Storage Monitor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwc.Storage-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		93BEFA8D2D62D91200E2CDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Storage Monitor/Storage_Monitor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Storage Monitor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwc.Storage-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		93BEFA8F2D62D91200E2CDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwc.Storage-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Storage Monitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Storage Monitor";
+			};
+			name = Debug;
+		};
+		93BEFA902D62D91200E2CDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwc.Storage-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Storage Monitor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Storage Monitor";
+			};
+			name = Release;
+		};
+		93BEFA922D62D91200E2CDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwc.Storage-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Storage Monitor";
+			};
+			name = Debug;
+		};
+		93BEFA932D62D91200E2CDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwc.Storage-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Storage Monitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93BEFA612D62D91100E2CDD9 /* Build configuration list for PBXProject "Storage Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BEFA892D62D91200E2CDD9 /* Debug */,
+				93BEFA8A2D62D91200E2CDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BEFA8B2D62D91200E2CDD9 /* Build configuration list for PBXNativeTarget "Storage Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BEFA8C2D62D91200E2CDD9 /* Debug */,
+				93BEFA8D2D62D91200E2CDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BEFA8E2D62D91200E2CDD9 /* Build configuration list for PBXNativeTarget "Storage MonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BEFA8F2D62D91200E2CDD9 /* Debug */,
+				93BEFA902D62D91200E2CDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BEFA912D62D91200E2CDD9 /* Build configuration list for PBXNativeTarget "Storage MonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BEFA922D62D91200E2CDD9 /* Debug */,
+				93BEFA932D62D91200E2CDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93BEFA5E2D62D91100E2CDD9 /* Project object */;
+}
