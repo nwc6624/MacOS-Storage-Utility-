@@ -16,6 +16,7 @@ Storage Monitor is a macOS application built with Swift and SwiftUI that provide
    git clone https://github.com/yourusername/StorageMonitor.git
    cd StorageMonitor
    ```
+   
 2. Open the project in Xcode.  
 3. Build and run the application on macOS.  
 
