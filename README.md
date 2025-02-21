@@ -8,7 +8,8 @@ Storage Monitor is a macOS application built with Swift and SwiftUI that provide
 - Shows total, used, and available space for each device.  
 - Toggle to show only essential drives or all connected volumes.  
 - Visual representation using bar charts for better readability.  
-- Real-time updates using macOS system APIs.  
+- Real-time updates using macOS system APIs.
+- 
 
 ## **Installation**  
 1. Clone the repository:  
