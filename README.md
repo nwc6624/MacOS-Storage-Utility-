@@ -3,6 +3,7 @@
 ## **Overview**  
 Storage Monitor is a macOS application built with Swift and SwiftUI that provides a detailed overview of connected storage devices. It displays total capacity, used space, and available space for both internal and external drives, with an option to toggle between viewing all volumes or only essential ones.  
 
+
 ## **Features**  
 - Displays internal and external storage information.  
 - Shows total, used, and available space for each device.  
